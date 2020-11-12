@@ -17,13 +17,40 @@
             color: black;
             padding: 10px;
         }
+        footer {
+            padding-top: 20px;
+        }
+       
     </style>
 </head>
 <body>
     <h1>Cap 06 - Aula 04 - Inserindo imagens com a tag img</h1>
+    <h2>Testando carga de imagem</h2>
+    <p>Abaixo você vai ver uma imagem que está aqui na pasta.</p>
+
+    <p><strong>Dentro da tag img, vai o atributo src="" que indica o nome do arquivo a ser inserido.</strong></p>
+    <p><strong>Outro atributo muito utilizado é width="" que indica a largura máxima do arquivo, proporcional à sua altura original. Logo, se diminuirmos ou aumentarmos a largura, a mesma coisa acontece com a altura.</strong></p>
+    
     <section>
-        <h1>Hello!</h1>
+        <h1>Estou aprendendo HTML5 e CSS3</h1>
+        <img src="HTML5.png" width=400>
+        <img src="css3.png" width=400> <!--ctrl + espaço-->
     </section>
+    <h1>Podemos carregar também imagens que estão em subpastas.</h1>
+    <p><strong>Esta imagem abaixo está no caminho img/cursoemvideo.png</strong></p>
+    <section>
+        <h1>Curso em Vídeo com o professor Gustavo Guanabara</h1>
+        <img src="img/cursoemvideo.jpg" width=400>
+    </section>
+    <h1>Também podemos carregar imagens externas</h1>
+    <section>
+        <h1>Abaixo segue uma imagem da logo JavaScript do link:https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png </h1>
+        <p><strong>Para inserir imagens através de links, basta botar o link dentro do mesmo atributo src="".</strong></p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/946px-Javascript_badge.svg.png" width=400 alt="Logo JavaScript">
+    </section>
+
+    <footer>Maycon Robson Campos - Estudos de HTML5 + CSS3 - Curso em Vídeo</footer>
     
 </body>
 </html>
