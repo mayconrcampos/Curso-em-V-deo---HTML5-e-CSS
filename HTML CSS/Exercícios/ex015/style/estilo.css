@@ -1,0 +1,20 @@
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: darkslategray;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+p {
+    color:steelblue;
+}
+
+footer {
+    text-align: center;
+}
