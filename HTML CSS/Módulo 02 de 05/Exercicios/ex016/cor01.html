@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+        
+    <style>
+        * {
+            background: lightgoldenrodyellow;
+        }
+        h2 {
+            background: none;
+        }
+        .dive {
+            padding: 50px;
+            margin: auto;
+            border-radius: 7px;
+            border: 1px solid black;
+            box-shadow: 3px 3px 3px black;
+            margin-bottom: 15px;
+        }
+        .um {
+            
+            background-image: linear-gradient(to right, white, steelblue);
+            /*to top
+              to bottom
+              to left
+              to right*/
+        }
+        .dois {
+            background-image: linear-gradient(to right, #90D1F4, #1E5675);
+        }
+        .tres {
+            background-image: linear-gradient(to right, #5E3F12, #5E5A54, #DB942A, #E1C395);
+        }
+        .quatro {
+            background-image: linear-gradient(to right, #4FF061, #678AF0, #67F076, #F04F81, #F0C75B);
+        }
+        .cinco {
+            background-image: linear-gradient(45deg, #C6309E, #299EE9, #FDCE6F, #F9862B, #EA4752);
+        }
+        .seis {
+            background-image: radial-gradient(circle, #C6309E, #299EE9, #FDCE6F, #F9862B, #EA4752);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Testando Gradientes</h1>
+
+    <div class="dive um">
+        <h2>Gradiente 01</h2>
+    </div>
+
+    <div class="dive dois">
+        <h2>Gradiente com cores monocromáticas</h2>
+    </div>
+
+    <div class="dive tres">
+        <h2>Gradiente com quatro cores</h2>
+    </div>
+
+    <div class="dive quatro">
+        <h2>Gradiente com cinco cores</h2>
+    </div>
+
+    <div class="dive cinco">
+        <h2>Gradiente das cores do Instagram</h2>
+    </div>
+
+    <div class="dive seis">
+        <h2>Gradiente Radial do Instagram</h2>
+    </div>
+    
+</body>
+</html>
