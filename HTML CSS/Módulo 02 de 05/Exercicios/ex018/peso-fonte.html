@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso, estilo e shorthand</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+        body {
+            font-family: cursive;
+            font-weight: lighter;
+            font-style: italic;
+        }
+        h1, h2 {
+            text-decoration: underline ;
+        }
+        .ex {
+            font: 2em "Reggae One", cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capítulo 14 aula 5 - Peso, estilo e shorthand</h1>
+
+    <h2>Trabalhando com fontes - Outros Estilos</h2>
+
+    <p>Existem outras formatações muito usadas em CSS, que são as propriedades font-
+        style para aplicar o itálico e font-weight para aplicar o negrito, sem contudo existir
+        o fator semântico discutido no capítulo 08.</p>
+
+    <p>O padrão para essas duas propriedades é o valor normal, mas podemos aplicar o valor
+        itálico ao font-style usando italic (mais compatível) ou oblique (menos
+        compatível). Já o negrito, pode ser aplicado por nomes como lighter, bold e bolder
+        ou pelo peso numérico, como indicado na imagem.</p>
+
+    <h2>shorthand - condensa todas as configurações.</h2>
+    <p>Ordem: font-style -> font-weight -> font-size -> font-family</p>
+
+    <p><strong>Exemplo em CSS:</strong> font: italic bolder 3em "Work Sans" sans-serif;</p>
+
+    <p class="ex">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, fuga quos! Fuga vero dignissimos, libero consectetur sed dolor nihil ipsum impedit magnam molestias odio, itaque doloribus, est in? Quo, debitis?
+    </p>
+    
+</body>
+</html>
